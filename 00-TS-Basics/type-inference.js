@@ -1,0 +1,10 @@
+"use strict";
+let z = 54; // inferred as number, thi is type inference.
+let y = 43;
+// explicit type declaration
+// this is type annotation
+let variableName; // union type and number,string, and boolean is anotations.
+//we can also anotate in functions
+function test(t) {
+    return t;
+}
